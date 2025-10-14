@@ -18,8 +18,8 @@ class Circle(Base):
         return "This is a circle"
 
     def draw(self):
-        return f"""({self.x}, {self.y})
-{self.size}
+        return f"""
+({self.x}, {self.y})\n{self.size}
      ~ ~ ~ ~ ~ ~
    .             .
   .               .
@@ -37,6 +37,4 @@ def main():
     print(c.shape())
     print(c.draw())
 
-
-if __name__ == "__main__":
-    main()
+main()
