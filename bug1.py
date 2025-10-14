@@ -1,21 +1,15 @@
-# bug1.py
-
-class Base:
+class Base: 
     def __init__(self, x, y, size):
-        self.x = x
-        self.y = y
-        self.size = size
-
+        self.x = x;
+        self.y = y;
+        self.size = size;
     def shape(self):
-        return "This is a shape"
+        return "This is a Circle";
 
 
 class Circle(Base):
     def __init__(self, x, y, size):
-        super().__init__(x, y, size)
-
-    def shape(self):
-        return "This is a circle"
+        super().__init__(x, y, size);
 
     def draw(self):
         return f"""
@@ -35,7 +29,7 @@ class Circle(Base):
 
 
 def main():
-    c = Circle(1, 2, 3)
+    c = Circle(1,2,3)
     print(c.shape())
     print(c.draw())
 
