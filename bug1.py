@@ -16,8 +16,8 @@ class Circle(Base):
         return "This is a circle"
 
     def draw(self):
-        return f"""({self.x}, {self.y})
-{self.size}
+        return f"""
+({self.x}, {self.y})\n{self.size}
          , - ~ ~ ~ - ,
      , '               ' ,
    ,                      ,
