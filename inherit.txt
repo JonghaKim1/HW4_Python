@@ -1,0 +1,5 @@
+Inheritance allows uus to reuse and extend existing code, Instead of rewriting the same logic in multiple classs, we can put shared methods
+and attributes in a base class, and have other classes inherit from it. This helps make our programs most organized and reduce code duplication
+for the same task. Inheritance also supports polymorphism, which means we cna uses a base class reference to work with objects of its subclasses.
+This makes it eassier to write flexible and extensible programs. For example, we can have a base class called Sahpe with a draw() method, and 
+sublass like Circle and Square can each have their own version of draw() while still being used in the same way.

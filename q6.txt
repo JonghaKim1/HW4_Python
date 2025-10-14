@@ -1,0 +1,3 @@
+1. increment_int_a(a) does not change a because integers are immutable and += just rebinds the local name
+2. increment_int_b(b) does change b because dictionaries are mutable and the update happens in place
+3. They differ due to immutability and mutability as well as local rebinding and in-place mutation
